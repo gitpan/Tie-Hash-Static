@@ -1,0 +1,18 @@
+Welcome to the Tie::Hash::Static README file. :)
+
+The idea is simple. Create an exclusive list of keys, all of which are
+guaranteed always to exist, and any access to keys outside if the list
+will be ignored.
+
+You can also choose to have Tie::Hash::Static search a hash for an
+accessed key, and if it exists, have it access the hash element, rather
+than the Tie::Hash::Static object.
+
+<LEGALESE>
+
+Copyright (C) 1997 Ashley Winters <jql@accessone.com>. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+</LEGALESE>

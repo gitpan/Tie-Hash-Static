@@ -1,0 +1,16 @@
+Once you have downloaded Static-0.XX.tar.gz and have extracted it
+into a convienient directory, make sure you have entered the Static
+directory created before proceeding.
+
+Run the command 'perl Makefile.PL ; make test' from your shell prompt.
+If all goes well, all tests should succeed and you can continue on to
+'make install'.
+
+Enter the t/ directory and just run the scripts using 'perl file.t' to
+test if you have succeeded in your installation.
+
+If any test other than the first fails, there is a bug in the program.
+I would be grateful if you could sent a bug-report to jql@accessone.com.
+
+If the first test fails, you probably aren't root.
+
